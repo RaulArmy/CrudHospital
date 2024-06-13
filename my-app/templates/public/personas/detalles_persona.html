@@ -1,0 +1,110 @@
+{% extends 'public/base_cpanel.html' %}
+<!--Cambiando el title-->
+{% block title %}Gestion Hospital | Registrar Persona{% endblock %}
+<!---->
+{% block customCSS %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename ='assets/css/file.css') }}" />
+{% endblock %}
+
+<!--Inicio del block-->
+{% block body %}
+<!---->
+{% if (detalle_empleado|length) %}
+<div class="card" style="border-radius: 0px !important">
+  <div class="row justify-content-center mb-2">
+    <div class="col-md-12">
+      <h3 class="text-center mt-5 mb-3">
+        <a href="/lista-de-personas">
+          <i class="bi bi-arrow-left-circle"></i>
+        </a>
+        INFORMACIÓN DE LA PERSONA
+      </h3>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row justify-content-center mb-2">
+    <div class="col-md-10">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="nombre_persona" class="form-label">
+              Nombre de la persona
+            </label>
+            <br />
+            {{ detalle_empleado.nombre_persona}}
+          </div>
+          <div class="col-md-6">
+            <label for="apellido_persona" class="form-label">
+              Apellido de la Persona
+            </label>
+            <br />
+            {{ detalle_persona.apellido_persona}}
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-md-6">
+            <label for="sexo_persona" class="form-label">
+              Sexo de la persona
+            </label>
+            <br />
+            {{ detalle_persona.sexo_persona}}
+          </div>
+          <div class="col-md-6">
+            <label for="telefono_persona" class="form-label">
+              Telefono de la Persona
+            </label>
+            <br />
+            {{ detalle_persona.telefono_persona}}
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-md-6">
+            <label for="email_persona" class="form-label">
+              Email de la Persona
+            </label>
+            <br />
+            {{ detalle_persona.email_persona}}
+          </div>
+          <div class="col-md-6">
+            <label for="profesion_persona" class="form-label">
+              Profesión de la Persona
+            </label>
+            <br />
+            {{ detalle_persona.profesion_persona}}
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-md-6">
+            <label for="salario_persona" class="form-label">
+              Salario de la Persona
+            </label>
+            <br />
+            $ {{
+            '{:,.0f}'.format(detalle_persona.salario_persona).replace(',',
+            '.')}}
+          </div>
+          <div class="col-md-6">
+            <label for="" class="form-label"> IMAGEN DE LA PERSONA </label>
+            <br />
+            <img
+              style="width: 200px"
+              src="/static/fotos_personas/{{ detalle_persona.foto_persona }}"
+              alt="imagen-persona" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<h2 class="text-center">
+  No existe la Persona
+  <hr />
+</h2>
+{% endif %} {% endblock %}
