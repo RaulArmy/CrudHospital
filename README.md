@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/Dashboard-python-login-urian-viera.png)
 
@@ -42,3 +43,7 @@
     Da las gracias públicamente 🤓.
 
 ## No olvides SUSCRIBIRTE 👍
+=======
+# CrudHospital
+Crud hecho con python y Flask, que permite registrar, actualizar y eliminar empleados de un hospital
+>>>>>>> d717c948d512e59a52558eea646626b06eb3d47d
