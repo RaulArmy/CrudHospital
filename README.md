@@ -1,27 +1,21 @@
 <<<<<<< HEAD
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/Dashboard-python-login-urian-viera.png)
+![](https://github.com/RaulArmy/Capturas_imagenes/blob/main/login.png?raw=true)
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/dashboard-python-crear-user-urian-viera.png)
+![](https://github.com/RaulArmy/Capturas_imagenes/blob/main/crear_cuenta.png?raw=true)
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/dashboard-python-recuperar-clave-urian-viera.png)
+![](https://github.com/RaulArmy/Capturas_imagenes/blob/main/vista_principal.png?raw=true)
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/dashborad-python-home-urian-viera.png)
+![](https://github.com/RaulArmy/Capturas_imagenes/blob/main/registrar_empleado.png?raw=true)
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/dashboard-python-registrar-cliente-urian-viera.png)
+![](https://github.com/RaulArmy/Capturas_imagenes/blob/main/lista_empleado.png?raw=true)
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/dashboard-python-lista-empleados-urian-viera.png)
+![](https://github.com/RaulArmy/Capturas_imagenes/blob/main/reportes.png?raw=true)
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/dashboard-python-lista-usuarios-urian-viera.png)
-
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/dashboard-python-editar-perfil-urian-viera.png)
-
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/dashboard-python-reporte-empleados-urian-viera.png)
+![](https://github.com/RaulArmy/Capturas_imagenes/blob/main/mi_perfil.png?raw=true)
 
 ### Requerimientos 📋
 
-    Servidor Web (Apache)
-    MySQL 5 o superior
     phpMyAdmin (opcional)
     Puedes usar un todo en uno como XAMPP, WAMPP u otro.
 
@@ -35,14 +29,7 @@
     Ejecutas el archivo `pip install -r requirements.txt` para instalar todos paquetes o   dependencias del proyecto.
     Ingresa desde un navegador a http://127.0.0.1:5600/
 
-### Expresiones de Gratitud 🎁
 
-    Comenta a otros sobre este proyecto 📢
-    Invita una cerveza 🍺 o un café ☕
-    Paypal iamdeveloper86@gmail.com
-    Da las gracias públicamente 🤓.
-
-## No olvides SUSCRIBIRTE 👍
 =======
 # CrudHospital
 Crud hecho con python y Flask, que permite registrar, actualizar y eliminar empleados de un hospital
